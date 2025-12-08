@@ -27,16 +27,14 @@ export const AboutSection = () => {
             </h3>
 
             <p className='text-muted-foreground'>
-              With one year of web development experience, I specialize in
-              building responsive, accessible, and performant web applications
-              using modern technologies.
+              With one year and half of web development experience, I specialize
+              in building responsive, accessible, and performant web
+              applications using modern technologies.
             </p>
 
             <p className='text-muted-foreground'>
-              I am passionate about creating elegant solutions to complex
-              problems and am constantly learning new technologies and
-              techniques to stay on the cutting edge of the ever-changing web
-              landscape.
+              I am passionate about creating solutions for complex problems and
+              constantly learn new technologies to stay relevant.
             </p>
 
             <div className='flex flex-col justify-center gap-4 pt-4 sm:flex-row'>
