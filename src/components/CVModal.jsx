@@ -35,7 +35,7 @@ export const CVModal = ({ isOpen, onClose }) => {
 
         <div className='space-y-3'>
           <button
-            onClick={() => handleDownload('CV_Ihar_Staliarou_en.pdf')}
+            onClick={() => handleDownload('CV_en.pdf')}
             className={cn(
               'bg-primary text-primary-foreground hover:bg-primary/90 w-full rounded-lg px-4 py-3 transition-colors duration-300 hover:cursor-pointer'
             )}
@@ -44,7 +44,7 @@ export const CVModal = ({ isOpen, onClose }) => {
           </button>
 
           <button
-            onClick={() => handleDownload('CV_Ihar_Staliarou_ru.pdf')}
+            onClick={() => handleDownload('CV_ru.pdf')}
             className={cn(
               'border-primary text-primary hover:bg-primary/10 w-full rounded-lg border px-4 py-3 transition-colors duration-300 hover:cursor-pointer'
             )}
