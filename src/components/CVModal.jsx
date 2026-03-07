@@ -30,26 +30,25 @@ export const CVModal = ({ isOpen, onClose }) => {
         <h3 className='mb-4 text-center text-xl font-semibold'>Download CV</h3>
 
         <p className='text-muted-foreground mb-6 text-center'>
-          Choose your preferred language
+          Are you sure You want to download my CV?
         </p>
 
         <div className='space-y-3'>
+          <button
+            onClick={onClose}
+            className={cn(
+              'bg-secondary text-primary-foreground hover:bg-primary/40 w-full rounded-lg px-4 py-3 transition-colors duration-300 hover:cursor-pointer'
+            )}
+          >
+            Cancel
+          </button>
           <button
             onClick={() => handleDownload('CV_en.pdf')}
             className={cn(
               'bg-primary text-primary-foreground hover:bg-primary/90 w-full rounded-lg px-4 py-3 transition-colors duration-300 hover:cursor-pointer'
             )}
           >
-            Download English CV
-          </button>
-
-          <button
-            onClick={() => handleDownload('CV_ru.pdf')}
-            className={cn(
-              'border-primary text-primary hover:bg-primary/10 w-full rounded-lg border px-4 py-3 transition-colors duration-300 hover:cursor-pointer'
-            )}
-          >
-            Download Russian CV
+            Confirm
           </button>
         </div>
       </div>
